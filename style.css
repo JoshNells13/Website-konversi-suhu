@@ -1,0 +1,70 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  background: linear-gradient(to right,yellow,rgb(255, 0, 0),yellow);
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.judul h1{
+    color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 5cm;
+ 
+}
+
+.child-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to left,red,yellow);
+}
+
+
+
+
+.child-container button{
+    margin-top: 10px;
+    border: none;
+    height: 32px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+button:active{
+    background-color: brown;
+}
+
+@media (max-width:400px){
+    .judul h1{
+        font-size: 20px;
+    }
+}
+
+
+
